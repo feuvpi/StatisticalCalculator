@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.fredvp.statisticalcalculator.test.SampleTeste" time="0.053" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.fredvp.statisticalcalculator.SampleTest" time="0.067" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,8 +18,8 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_271\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\Feu&apos;s m15 R6\AppData\Local\Temp\surefire8231687840659383573\surefirebooter-20220614110158204_3.jar C:\Users\Feu&apos;s m15 R6\AppData\Local\Temp\surefire8231687840659383573 2022-06-14T11-01-57_718-jvmRun1 surefire-20220614110158204_1tmp surefire_0-20220614110158204_2tmp"/>
-    <property name="test" value="com.fredvp.statisticalcalculator.test.SampleTeste"/>
+    <property name="sun.java.command" value="C:\Users\Feu&apos;s m15 R6\AppData\Local\Temp\surefire1134304215978526301\surefirebooter-20220614162546482_3.jar C:\Users\Feu&apos;s m15 R6\AppData\Local\Temp\surefire1134304215978526301 2022-06-14T16-25-45_905-jvmRun1 surefire-20220614162546482_1tmp surefire_0-20220614162546482_2tmp"/>
+    <property name="test" value="com.fredvp.statisticalcalculator.SampleTest"/>
     <property name="surefire.test.class.path" value="C:\Users\Feu&apos;s m15 R6\Documents\NetBeansProjects\StatisticalCalculator\target\test-classes;C:\Users\Feu&apos;s m15 R6\Documents\NetBeansProjects\StatisticalCalculator\target\classes;C:\Users\Feu&apos;s m15 R6\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\Feu&apos;s m15 R6\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Feu&apos;s m15 R6\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Feu&apos;s m15 R6\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\Feu&apos;s m15 R6\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.0\junit-jupiter-params-5.6.0.jar;C:\Users\Feu&apos;s m15 R6\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\Feu&apos;s m15 R6\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Feu&apos;s m15 R6"/>
@@ -32,7 +32,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\Feu&apos;s m15 R6\AppData\Local\Temp\surefire8231687840659383573\surefirebooter-20220614110158204_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Feu&apos;s m15 R6\AppData\Local\Temp\surefire1134304215978526301\surefirebooter-20220614162546482_3.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_271\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_271\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -44,7 +44,7 @@
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="maven.ext.class.path" value="C:\Program Files\NetBeans-13\netbeans\java\maven-nblib\netbeans-eventspy.jar;C:\Program Files\NetBeans-13\netbeans\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\NetBeans-13\netbeans\java\maven-nblib\netbeans-eventspy.jar"/>
     <property name="localRepository" value="C:\Users\Feu&apos;s m15 R6\.m2\repository"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\FEU&apos;SM~1\AppData\Local\Temp\"/>
@@ -62,7 +62,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="testMean" classname="com.fredvp.statisticalcalculator.test.SampleTeste" time="0.025">
+  <testcase name="testMean" classname="com.fredvp.statisticalcalculator.SampleTest" time="0.028">
     <system-out><![CDATA[ArrayList
 -----------------
 [1.1, 0.9, 2.0, 2.0, 2.0, 3.0, 3.0]
@@ -71,7 +71,18 @@ ArrayList
 -----------------
 [3.0, 3.0, 4.0, 5.0, 8.0, 10.0]
 The entered sample is: [3.0, 3.0, 4.0, 5.0, 8.0, 10.0]
+mean test
 ]]></system-out>
   </testcase>
-  <testcase name="testMedian" classname="com.fredvp.statisticalcalculator.test.SampleTeste" time="0.001"/>
+  <testcase name="testModa" classname="com.fredvp.statisticalcalculator.SampleTest" time="0.001">
+    <system-out><![CDATA[moda test
+max count for 3.0 is 2
+max count for 1.1 is 1
+max count for 2.0 is 3
+]]></system-out>
+  </testcase>
+  <testcase name="testMedian" classname="com.fredvp.statisticalcalculator.SampleTest" time="0.001">
+    <system-out><![CDATA[median test
+]]></system-out>
+  </testcase>
 </testsuite>
