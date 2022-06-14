@@ -62,12 +62,13 @@ private float variance; //
     }
 
     private float getMedian() {
-        return this.median;
+        return this.median; 
     }
 
     public void setMedian() {
         if((this.getSample().size()) % 2 == 0){
-            
+            int size = this.getSample().size();
+            this.median = ((this.getSample().get(size/2-1) + this.getSample().get(size/2)) / 2);
         } else {
             int index = (int) Math.floor((this.getSample().size())/2);
             this.median = this.getSample().get(index);

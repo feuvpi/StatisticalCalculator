@@ -34,7 +34,7 @@ public class App extends Application {
     public static void main(String[] args) {
         launch();
         
-        Sample sample = new Sample("3, 2, 3.44, 3.44, 3.44, 3.44, 3.44, 3.44, 3.44, 3.44, 3.44, 5, 6, 6, 6, 6, 6");
+        Sample sample = new Sample("3, 3, 4, 5, 8, 10");
         
         System.out.println(sample.median());
         System.out.println(sample.moda());

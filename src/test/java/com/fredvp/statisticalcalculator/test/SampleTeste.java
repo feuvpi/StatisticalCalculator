@@ -63,14 +63,15 @@ public class SampleTeste {
     
     @Test
     void testMean() {
+       
         assertEquals(sampleOdd.mean(), 2);
-        assertEquals(sampleEven.mean(), 5, 5);
+        assertEquals(sampleEven.mean(), 5.5);
     }
 
     @Test
     void testMedian() {
         assertEquals(sampleOdd.median(), 2);
-        assertEquals(sampleEven.median(), 4, 5);
+        assertEquals(sampleEven.median(), 4.5);
     }
 
     @Test
