@@ -27,14 +27,14 @@ public class SampleTeste {
 
     @BeforeAll
     public static void setUpClass() {
-        sampleOdd = new Sample("1, 1, 2, 2, 2, 3, 3");
+        sampleOdd = new Sample("1.1, 0.9, 2, 2, 2, 3, 3");
         //mean = 2
         //median = 2
         //moda = 2
         //standard deviation = 
         //variance = 
 
-        sampleEven = new Sample("3, 3, 4, 5, 8, 10");
+        sampleEven = new Sample("3, 3, 4, 5, 8.0, 10");
         //mean = 5,5
         //median = 4,5
         //moda = 3

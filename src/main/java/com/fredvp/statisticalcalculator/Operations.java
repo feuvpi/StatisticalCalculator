@@ -11,3 +11,6 @@ package com.fredvp.statisticalcalculator;
 public class Operations {
     
 }
+
+
+//TRANSFER OPERATIONS METHODS FROM SAMPLE CLASS TO HERE
