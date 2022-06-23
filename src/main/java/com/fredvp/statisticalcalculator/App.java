@@ -36,8 +36,10 @@ public class App extends Application {
         
         Sample sample = new Sample("3, 3, 4, 5, 8, 10");
         
+        System.out.println("A media é: " + sample.mean());
         System.out.println(sample.median());
         System.out.println(sample.moda());
+        System.out.println(sample.standardDeviation());
     }
 
 }

@@ -15,7 +15,7 @@ public interface Controller {
     public abstract float mean();
     public abstract float moda();
     public abstract float median();
-    public abstract void standardDeviation();
+    public abstract float standardDeviation();
     public abstract void variation();
     public abstract ArrayList<Float> transformToArray(String sample);
     

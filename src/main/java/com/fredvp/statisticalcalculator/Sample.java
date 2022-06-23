@@ -7,6 +7,7 @@ import static java.lang.Double.sum;
 import static java.lang.Float.sum;
 import static java.lang.Long.sum;
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.Objects;
 
 /**
@@ -101,11 +102,21 @@ private float variance; //
     }
 
     public float getStandardDeviation() {
-        return standardDeviation;
-    }
+        return this.standardDeviation;
+    };
 
-    public void setStandardDeviation(float standardDeviation) {
-        this.standardDeviation = standardDeviation;
+    public void setStandardDeviation() {
+        double sD = 0;
+        float standardDev = 0;
+        for(float item : this.getSample()){
+            sD += Math.pow((item-this.mean()), 2);
+        };
+        sD = sD / ((this.getSample().size()));
+        sD = Math.sqrt(sD);
+        System.out.println("sD is: " + sD);
+        standardDev = (float) sD;
+        this.standardDeviation = standardDev;
+        
     }
 
     public float getVariance() {
@@ -139,8 +150,9 @@ private float variance; //
     }
 
     @Override
-    public void standardDeviation() {
-        //throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public float standardDeviation() {
+        this.setStandardDeviation();
+        return this.getStandardDeviation();
     }
 
     @Override
