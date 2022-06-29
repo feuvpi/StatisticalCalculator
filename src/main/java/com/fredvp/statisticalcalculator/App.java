@@ -40,6 +40,7 @@ public class App extends Application {
         System.out.println(sample.median());
         System.out.println(sample.moda());
         System.out.println(sample.standardDeviation());
+        System.out.println("A variancia é: " + sample.variance());
     }
 
 }

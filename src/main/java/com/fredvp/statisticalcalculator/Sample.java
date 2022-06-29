@@ -120,11 +120,13 @@ private float variance; //
     }
 
     public float getVariance() {
-        return variance;
+        return this.variance;
     }
 
-    public void setVariance(float variance) {
-        this.variance = variance;
+    public void setVariance() {
+        this.setStandardDeviation();
+        double variance = (double) Math.pow(this.getStandardDeviation(), 2);
+        this.variance = (float) variance;
     }
 
 
@@ -156,8 +158,10 @@ private float variance; //
     }
 
     @Override
-    public void variation() {
-        //throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public float variance() {
+        this.setVariance();
+        return this.getVariance();
+
     }
 
     @Override

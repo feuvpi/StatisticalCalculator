@@ -15,6 +15,8 @@ import static org.junit.jupiter.api.Assertions.*;
 /**
  *
  * @author Feu's m15 R6
+ * 
+ * to do: functions must sort sample first (median most)
  */
 public class SampleTest {
     
